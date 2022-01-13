@@ -5885,10 +5885,6 @@ argparse@^2.0.1:
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
-argv@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/argv/-/argv-0.0.2.tgz#ecbd16f8949b157183711b1bda334f37840185ab"
-
 aria-query@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
@@ -7472,12 +7468,6 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
 
-clap@^1.0.9:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
-  dependencies:
-    chalk "^1.1.3"
-
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -7660,12 +7650,6 @@ coa@^2.0.2:
     chalk "^2.4.1"
     q "^1.1.2"
 
-coa@~1.0.1:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/coa/-/coa-1.0.4.tgz#a9ef153660d6a86a8bdec0289a5c684d217432fd"
-  dependencies:
-    q "^1.1.2"
-
 code-excerpt@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/code-excerpt/-/code-excerpt-3.0.0.tgz#fcfb6748c03dba8431c19f5474747fad3f250f10"
@@ -7792,10 +7776,6 @@ colorette@^1.2.1, colorette@^1.2.2:
 colors@^1.1.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.2.tgz#2df8ff573dfbf255af562f8ce7181d6b971a359b"
-
-colors@~1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 columnify@^1.5.4:
   version "1.5.4"
@@ -8912,13 +8892,6 @@ csso@^4.0.2, csso@^4.2.0:
   integrity sha512-wvlcdIbf6pwKEk7vHj8/Bkc0B4ylXZruLvOgs9doS5eOsOpuodOV2zJChSpkp+pRpYQLQMeF04nr3Z68Sta9jA==
   dependencies:
     css-tree "^1.1.2"
-
-csso@~2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/csso/-/csso-2.3.2.tgz#ddd52c587033f49e94b71fc55569f252e8ff5f85"
-  dependencies:
-    clap "^1.0.9"
-    source-map "^0.5.3"
 
 cssom@^0.4.1, cssom@^0.4.4:
   version "0.4.4"
@@ -13074,10 +13047,6 @@ image-q@^1.1.1:
   resolved "https://registry.yarnpkg.com/image-q/-/image-q-1.1.1.tgz#fc84099664460b90ca862d9300b6bfbbbfbf8056"
   integrity sha1-/IQJlmRGC5DKhi2TALa/u7+/gFY=
 
-image-size@^0.6.1:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.6.3.tgz#e7e5c65bb534bd7cdcedd6cb5166272a85f75fb2"
-
 image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
@@ -14746,13 +14715,6 @@ js-yaml@3.14.1, js-yaml@^3.10.0, js-yaml@^3.13.1, js-yaml@^3.14.1, js-yaml@^3.6.
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
-
-js-yaml@~3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^2.6.0"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -22211,7 +22173,7 @@ sass-loader@^10.1.1:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sax@>=0.6.0, sax@^1.2.4, sax@~1.2.1, sax@~1.2.4:
+sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
@@ -22795,7 +22757,7 @@ source-map@0.7.3, source-map@^0.7.3, source-map@~0.7.2:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
 
-source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7, source-map@~0.5.3:
+source-map@^0.5.0, source-map@^0.5.6, source-map@^0.5.7, source-map@~0.5.3:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
@@ -22893,51 +22855,42 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
-sqip-plugin-blur@^1.0.0-alpha.35:
-  version "1.0.0-alpha.35"
-  resolved "https://registry.npmjs.org/sqip-plugin-blur/-/sqip-plugin-blur-1.0.0-alpha.35.tgz#246bda3dac0ba6240f190532805214532a35b815"
-  integrity sha512-+98KUUlSvMrw+M49wWvnA3SxmETIgpAwHkrhojpkFeOY+rB07twtrNlxZGE861Y1HAeCXf1o17m/WPhZ8Ocn0w==
+sqip-plugin-blur@^1.0.0-alpha.36:
+  version "1.0.0-alpha.36"
+  resolved "https://registry.npmjs.org/sqip-plugin-blur/-/sqip-plugin-blur-1.0.0-alpha.36.tgz#82dd959952595d8079becc5be56b5c3478799987"
+  integrity sha512-BAzrSBTVqacQyi6LbGgCXXzB1wcWEmDtOa/m//0MFixwUkk4Z3ZvoOAKkzOxjYaUZApcwwiVE5PYOqyj+HeIuA==
   dependencies:
-    sqip "^1.0.0-alpha.34"
+    sqip "^1.0.0-alpha.35"
 
-sqip-plugin-data-uri@^1.0.0-alpha.35:
-  version "1.0.0-alpha.35"
-  resolved "https://registry.npmjs.org/sqip-plugin-data-uri/-/sqip-plugin-data-uri-1.0.0-alpha.35.tgz#3c15c3103c1e52d54643f7941e77d0cfc56fcb4a"
-  integrity sha512-r+/KDniEDYUa/kajdGkfzMlP4U/wKjYrSI5v4RrQBjQym4/hdrTFifah7RvOZjoOEArZN2MfBO5JemXD6eefHQ==
+sqip-plugin-data-uri@^1.0.0-alpha.36:
+  version "1.0.0-alpha.36"
+  resolved "https://registry.npmjs.org/sqip-plugin-data-uri/-/sqip-plugin-data-uri-1.0.0-alpha.36.tgz#2537a92b913d70f87d2ad5c558820943e9fa3702"
+  integrity sha512-JO173us/sHJDKDG4H/geMpgkdrbS/Z8zXAC9cFA7NB3tRHHzGF8uoApzfMsGjOxS1c4JvEh/hy4h7El0lf6pAg==
   dependencies:
     mini-svg-data-uri "^1.2.3"
-    sqip "^1.0.0-alpha.34"
+    sqip "^1.0.0-alpha.35"
 
-sqip-plugin-primitive@^1.0.0-alpha.36:
-  version "1.0.0-alpha.36"
-  resolved "https://registry.npmjs.org/sqip-plugin-primitive/-/sqip-plugin-primitive-1.0.0-alpha.36.tgz#b6ce0cc0e84ba546cdc3d708d212370211ff4aaf"
-  integrity sha512-L8XtycaqgDNsYc/l4xBQFPb24bulOrvck+/JPuXT40qbCDja13uEpjI9oZUHnSyQDby8AY/qmNBgzzf7ABxmJA==
+sqip-plugin-primitive@^1.0.0-alpha.37:
+  version "1.0.0-alpha.37"
+  resolved "https://registry.npmjs.org/sqip-plugin-primitive/-/sqip-plugin-primitive-1.0.0-alpha.37.tgz#52f82ee9400582787935a3b77290b60d414cf92a"
+  integrity sha512-8lw1VK1uXyVUb+Is2BN6SRrWs7FM8UNxYDro486TB6oooJ+ObVmnAKlUokL1ohQ5DCT/jtkbK6YGFNoI8ucKfw==
   dependencies:
     debug "^4.1.1"
     execa "5.1.1"
-    sqip "^1.0.0-alpha.34"
+    sqip "^1.0.0-alpha.35"
 
-sqip-plugin-svgo@^1.0.0-alpha.35:
+sqip-plugin-svgo@^1.0.0-alpha.37:
+  version "1.0.0-alpha.37"
+  resolved "https://registry.npmjs.org/sqip-plugin-svgo/-/sqip-plugin-svgo-1.0.0-alpha.37.tgz#9260a81b3efb962a029b4304f2ac6bfdcae8bae3"
+  integrity sha512-8mWBoZ24gqGCwQSns6lAG3W4ju4zT9Sj9HWBxS9VgNqEuoKDHD1C7nrtI0e5fbFWeIR8XtECsOTQlWa5oYBbfQ==
+  dependencies:
+    sqip "^1.0.0-alpha.35"
+    svgo "^2.8.0"
+
+sqip@^1.0.0-alpha.35:
   version "1.0.0-alpha.35"
-  resolved "https://registry.npmjs.org/sqip-plugin-svgo/-/sqip-plugin-svgo-1.0.0-alpha.35.tgz#310eb57b6d7a5226daa91db68dfccb7a0c903463"
-  integrity sha512-qyBo1KIYfVP64COIB7Ji3v/Z1v/OQw5rdMQwyKHzvwpW/gtK8fEATOmHSDK1m/B2/JLgK2RdUwmHMaBVZeIT9w==
-  dependencies:
-    sqip "^0.3.3"
-    svgo "^2.0.0"
-
-sqip@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/sqip/-/sqip-0.3.3.tgz#920bbd38428db1fb267072a2c7c885c8c36d0e15"
-  dependencies:
-    argv "0.0.2"
-    image-size "^0.6.1"
-    svgo "^0.7.2"
-    xmldom "^0.1.27"
-
-sqip@^1.0.0-alpha.34:
-  version "1.0.0-alpha.34"
-  resolved "https://registry.npmjs.org/sqip/-/sqip-1.0.0-alpha.34.tgz#a7b4b3bf7f53e8ee5fba3e38d8ac4399e931cc5a"
-  integrity sha512-Dy1sPVf+GWRNPR8Fssz1nCq+aTyWCXhnWP0vbudAGr1ZdEeCb4/IS5AiAFiFfx+qDDzThiiN/d3k1VnpyCKxIg==
+  resolved "https://registry.npmjs.org/sqip/-/sqip-1.0.0-alpha.35.tgz#e297bae8d7c26ce43957886c90852a737e9d0fe3"
+  integrity sha512-Df99j1Zb9MFT58DkqI/gZlpQgDfTWUwV5GggHsC0RLlwYFcB6ABRXq/DI4XRJrrkAWr3z90GX1hy6s3eiD6oXg==
   dependencies:
     chalk "^4.1.0"
     cheerio "^1.0.0-rc.10"
@@ -23693,19 +23646,7 @@ svgo@1.3.2, svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-svgo@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/svgo/-/svgo-0.7.2.tgz#9f5772413952135c6fefbf40afe6a4faa88b4bb5"
-  dependencies:
-    coa "~1.0.1"
-    colors "~1.1.2"
-    csso "~2.3.1"
-    js-yaml "~3.7.0"
-    mkdirp "~0.5.1"
-    sax "~1.2.1"
-    whet.extend "~0.9.9"
-
-svgo@^2.0.0, svgo@^2.3.0:
+svgo@^2.3.0, svgo@^2.8.0:
   version "2.8.0"
   resolved "https://registry.npmjs.org/svgo/-/svgo-2.8.0.tgz#4ff80cce6710dc2795f0c7c74101e6764cfccd24"
   integrity sha512-+N/Q9kV1+F+UeWYoSiULYo4xYSDQlTgb+ayMobAXPwMnLvop7oxKMo9OzIrX5x3eS4L4f2UHhc9axXwY8DpChg==
@@ -25758,10 +25699,6 @@ when@~3.6.x:
   version "3.6.4"
   resolved "https://registry.yarnpkg.com/when/-/when-3.6.4.tgz#473b517ec159e2b85005497a13983f095412e34e"
 
-whet.extend@~0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/whet.extend/-/whet.extend-0.9.9.tgz#f877d5bf648c97e5aa542fadc16d6a259b9c11a1"
-
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz#13757bc89b209b049fe5d86430e21cf40a89a8e6"
@@ -26173,10 +26110,6 @@ xmlchars@^2.1.1, xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
-
-xmldom@^0.1.27:
-  version "0.1.27"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
 xmldom@^0.6.0:
   version "0.6.0"
